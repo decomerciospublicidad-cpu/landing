@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>decomercios - Publicidad en Instagram</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-[#4c9d9e] to-[#35797a] text-white relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6 py-20 text-center relative z-10 animate-fadeIn">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Impulsá tu negocio con <span class="text-yellow-300">decomercios</span></h1>
+      <p class="text-lg md:text-xl mb-8">Especialistas en publicidad en Instagram para que tu marca llegue a más clientes.</p>
+      <a href="#contacto" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-6 py-3 rounded-full font-semibold shadow-lg transition transform hover:scale-105">Quiero potenciar mi marca</a>
+    </div>
+    <div class="absolute inset-0 opacity-20">
+      <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_tfb3estd.json" background="transparent" speed="1" loop autoplay></lottie-player>
+    </div>
+  </header>
+
+  <!-- Servicios -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-12 animate-slideUp text-[#35797a]">¿Qué hacemos por tu negocio?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2 animate-fadeIn delay-100 border-t-4 border-[#4c9d9e]">
+        <h3 class="text-xl font-semibold mb-4 text-[#4c9d9e]">Gestión de campañas</h3>
+        <p>Creación y optimización de anuncios en Instagram diseñados para atraer clientes reales.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2 animate-fadeIn delay-200 border-t-4 border-[#4c9d9e]">
+        <h3 class="text-xl font-semibold mb-4 text-[#4c9d9e]">Diseño atractivo</h3>
+        <p>Creatividades visuales modernas que captan la atención y refuerzan tu identidad de marca.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2 animate-fadeIn delay-300 border-t-4 border-[#4c9d9e]">
+        <h3 class="text-xl font-semibold mb-4 text-[#4c9d9e]">Análisis de resultados</h3>
+        <p>Reportes claros para que veas el crecimiento de tu comunidad y el retorno de inversión.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12 animate-slideUp text-[#35797a]">Lo que dicen nuestros clientes</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition animate-fadeIn delay-100 border-l-4 border-[#4c9d9e]">
+          <p class="italic mb-4">“Gracias a decomercios nuestras ventas crecieron un 40% en solo dos meses.”</p>
+          <h4 class="font-semibold text-[#4c9d9e]">María, tienda de ropa</h4>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg transform hover:scale-105 transition animate-fadeIn delay-200 border-l-4 border-[#4c9d9e]">
+          <p class="italic mb-4">“Los anuncios se ven profesionales y llegan a las personas correctas. Súper recomendados.”</p>
+          <h4 class="font-semibold text-[#4c9d9e]">Carlos, cafetería local</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-8 animate-slideUp text-[#35797a]">¿Listo para crecer en Instagram?</h2>
+    <p class="mb-8">Escribinos y armemos la estrategia que tu negocio necesita.</p>
+    <a href="mailto:contacto@decomercios.com" class="bg-[#4c9d9e] hover:bg-[#35797a] text-white px-8 py-3 rounded-full font-semibold shadow-lg transition transform hover:scale-105">Contactar</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#35797a] text-gray-100 py-6 text-center">
+    <p>&copy; 2025 decomercios - Publicidad en Instagram. Todos los derechos reservados.</p>
+  </footer>
+
+  <style>
+    .animate-fadeIn {
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+    .animate-slideUp {
+      animation: slideUp 1s ease forwards;
+      opacity: 0;
+    }
+    .delay-100 { animation-delay: 0.2s; }
+    .delay-200 { animation-delay: 0.4s; }
+    .delay-300 { animation-delay: 0.6s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+
+</body>
+</html>
